@@ -8,9 +8,8 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 8px;
-
+    
 }
-
 
 @media screen and (max-width:768px) {
     .lead__caption {

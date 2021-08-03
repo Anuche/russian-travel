@@ -5,21 +5,25 @@
     justify-content:center;
     flex-direction:column;
     text-decoration: none; 
-
+    
 }
+
 .cover__overlay:hover{
     background-color:rgba(42, 44, 47, 0.8);
 }
+
 @media screen and (max-width:1024px) {
     .cover__overlay {        
         height: 640px;
     }
 }
+
 @media screen and (max-width:768px) {
     .cover__overlay {        
         height: 480px;
     }
 }
+
 @media screen and (max-width:320px) {
     .cover__overlay {        
         height: 200px;

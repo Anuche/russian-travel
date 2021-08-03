@@ -1,5 +1,5 @@
 .intro__article{
-    width: 690px;
+    max-width: 690px;
     height: 100%;
     
 }
@@ -10,24 +10,14 @@
     }
 }
 
-@media screen and (max-width:1024px) {
-    .intro__article {
-        width: 720px;
-        
-        margin: 88px 0 88px 48px;
-    }
-}
-
 @media screen and (max-width:768px) {
     .intro__article {
-        margin: 88px auto;
-        width: calc(100% - 48px);
+        margin: 88px auto;        
     }
 }
 
 @media screen and (max-width:320px) {
     .intro__article {
-        width: calc(100% - 32px);
         margin: 64px auto;
     }
 }

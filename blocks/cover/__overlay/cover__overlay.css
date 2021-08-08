@@ -1,7 +1,7 @@
 .cover__overlay{
     width: 100%;
-    margin: auto;    
-    text-decoration: none; 
+    margin: auto;
+    text-decoration: none;
     background: center center no-repeat url('../../../images/cover-trains.jpg');
     background-size: cover;
     background-position:center;
